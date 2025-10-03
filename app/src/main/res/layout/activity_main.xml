@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#D65E5E"
+        android:height="100dp"
+
+        >
+
+    </TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usrnme"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/background"
+        android:hint="Masukan Username"
+        android:padding="25dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pswrd"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background"
+        android:hint="Masukan Password"
+        android:padding="25dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:backgroundTint="@color/black"
+
+        />
+
+</LinearLayout>
